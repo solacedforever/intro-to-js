@@ -68,27 +68,27 @@ let statement = yourName + " is taking a class at The Iron Yard, my instructor's
 // Use the `=` operator to assign a value to each variable matching the type in the name.
 let myNumber = "7";
 let myString = "iron yard";
-let myBoolean = "var x = null";
+let myBoolean = false;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
 let myUndefined = "Fossils";
-// A:
+// A:let myUndefined = "undefined;"
 
 
 // For questions 11 - 19: List which boolean value will be stored in each variable. (Remember: `==` does not check data type)
 
 // 11.
 let x = (false == 0);
-// A. False
+// A. True
 
 
 // 12.
 let y = (false == "");
-// A. False
+// A. True
 
 
 // 13.
 let z = (0 == "");
-// A. False
+// A. True
 
 
 // 14.
@@ -113,12 +113,12 @@ let d = (null == false);
 
 // 18.
 let e = (NaN == null);
-// A. True
+// A. False
 
 
 // 19.
 let f = (NaN == NaN);
-// A. True
+// A. False
 
 
 // 20.
@@ -141,7 +141,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A: True
+// A: False
 
 
 // 22.
@@ -161,7 +161,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:True
+// A:False
 
 
 // 24.
